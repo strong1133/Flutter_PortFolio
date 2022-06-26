@@ -9,7 +9,6 @@ class SplashService extends GetxService {
 
   final memo = AsyncMemoizer<void>();
   Future<void> init() {
-    GetPages getPage = GetPages();
     return memo.runOnce(_initFunction);
   }
 

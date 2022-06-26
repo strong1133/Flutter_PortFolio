@@ -6,6 +6,7 @@ import 'package:strong_server_front/views/splash_view.dart';
 
 class Root extends StatelessWidget {
   Root({Key? key}) : super(key: key);
+  GetPages getPage = GetPages();
 
   @override
   Widget build(BuildContext context) {
